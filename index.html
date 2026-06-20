@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🍽 Recipe Finder Dashboard</h1>
+
+    <div class="search-box">
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search Recipe..."
+        >
+
+        <button id="searchBtn">
+            Search
+        </button>
+    </div>
+
+    <div id="recipeContainer">
+
+    </div>
+    <div id="recipeModal" class="modal">
+    <div class="modal-content">
+
+        <span id="closeBtn">&times;</span>
+
+        <h2 id="modalTitle"></h2>
+
+        <img id="modalImage" src="" alt="Recipe">
+
+        <h3>Instructions</h3>
+
+        <p id="modalInstructions"></p>
+
+    </div>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
